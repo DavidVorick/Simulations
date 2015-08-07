@@ -29,7 +29,7 @@ func main() {
 	// new to the network, so the whole block must be downloaded after it is
 	// discovered. (40 seconds to travel over a normal connection). When 'A'
 	// makes a block, the block is sent immediately to B (taking 2 seconds),
-	// then A stops doing any work at all. B and C work together to get the
+	// then A stops doing any relaying at all. B and C work together to get the
 	// block to the rest of the network.
 	//
 	// Propagation time of the 5GB block:
